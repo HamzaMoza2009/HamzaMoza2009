@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Hamza Mostafa — Software Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080B16"/>
+      <stop offset="55%" stop-color="#11152A"/>
+      <stop offset="100%" stop-color="#17102B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="330" rx="24" fill="url(#bg)"/>
+  <circle cx="1020" cy="30" r="180" fill="#7C3AED" opacity=".10"/>
+  <circle cx="1100" cy="280" r="210" fill="#0891B2" opacity=".10"/>
+  <path d="M0 270 C260 190 360 360 650 250 S980 130 1200 210" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".35"/>
+  <path d="M0 292 C260 212 360 382 650 272 S980 152 1200 232" fill="none" stroke="#8B5CF6" stroke-width="1" opacity=".2"/>
+  <g opacity=".23" stroke="#94A3B8" stroke-width="1">
+    <path d="M760 0V330M840 0V330M920 0V330M1000 0V330M1080 0V330M1160 0V330"/>
+    <path d="M720 50H1200M720 110H1200M720 170H1200M720 230H1200M720 290H1200"/>
+  </g>
+  <g transform="translate(78 75)">
+    <rect x="0" y="0" width="54" height="4" rx="2" fill="url(#accent)" filter="url(#glow)"/>
+    <text x="0" y="85" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="800" letter-spacing="-2">HAMZA MOSTAFA</text>
+    <text x="3" y="132" fill="#C4B5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="600" letter-spacing="3">SOFTWARE DEVELOPER IN PROGRESS</text>
+    <text x="3" y="180" fill="#94A3B8" font-family="Consolas,monospace" font-size="18">Building • Learning • Improving</text>
+    <text x="3" y="222" fill="#22D3EE" font-family="Consolas,monospace" font-size="16">&lt; C#  /  .NET  /  Flutter  /  SQL  /  Dart &gt;</text>
+  </g>
+  <g transform="translate(1000 95)" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".9">
+    <path d="M-42 0L-82 40L-42 80M42 0L82 40L42 80M18 -12L-18 92"/>
+    <circle cx="0" cy="40" r="104" stroke-dasharray="5 12" opacity=".45"/>
+  </g>
+  <text x="1120" y="305" text-anchor="end" fill="#64748B" font-family="Consolas,monospace" font-size="12">EGYPT · OPEN TO LEARNING</text>
+</svg>
